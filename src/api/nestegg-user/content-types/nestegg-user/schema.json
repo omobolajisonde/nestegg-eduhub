@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nestegg_users",
+  "info": {
+    "singularName": "nestegg-user",
+    "pluralName": "nestegg-users",
+    "displayName": "nestegg-user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "active": {
+      "type": "boolean"
+    },
+    "userId": {
+      "type": "uid"
+    }
+  }
+}
